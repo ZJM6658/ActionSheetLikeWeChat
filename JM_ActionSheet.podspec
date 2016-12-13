@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = 'JM_ActionSheet'
-    s.version      = '1.0.0'
+    s.version      = '1.0.1'
     s.summary      = 'An ActionSheet like WeChat'
     s.homepage     = 'https://github.com/ZJM6658/ActionSheetLikeWeChat'
     s.license      = 'MIT'
