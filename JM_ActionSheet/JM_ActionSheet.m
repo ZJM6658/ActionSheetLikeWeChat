@@ -7,7 +7,7 @@
 //
 
 #import "JM_ActionSheet.h"
-#import "UIView+Extension.h"
+#import "UIView+JMExtension.h"
 
 @interface JM_ActionSheet () {
     UIView *_backgroundView;        //背景View
