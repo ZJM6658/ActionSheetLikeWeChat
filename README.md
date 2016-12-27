@@ -4,10 +4,10 @@
 ###效果图
 ![JM_ActionSheet](https://github.com/ZJM6658/ActionSheetLikeWeChat/blob/master/showgif/ActionSheet.gif?raw=true" alt="ActionSheet.gif">)
 
-###如何使用
+###如何引用
 1、将`JM_ActionSheet`文件夹拖入你的工程中
 
-2、
+2、使用CocoaPods
 ```
 	pod 'JM_ActionSheet'
 ```
@@ -41,7 +41,7 @@
 
 ```
 
-###如何使用
+###使用方法
 1、导入头文件
 
 ```
