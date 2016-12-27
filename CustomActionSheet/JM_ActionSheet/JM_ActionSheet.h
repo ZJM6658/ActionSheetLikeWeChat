@@ -14,8 +14,8 @@
 @property(nonatomic, strong) NSString *title;       //标题
 @property(nonatomic, strong) UIColor *textColor;    //字体颜色 default is blackColor;
 @property(nonatomic, strong) UIFont *textFont;      //字号 default is 15;
-@property(nonatomic) CGFloat height;                //行高 defaule is 44;
-@property(nonatomic) BOOL isTitle;                  //标题无法点击 defaule is NO;
+@property(nonatomic) CGFloat height;                //行高 default is 44;
+@property(nonatomic) BOOL isTitle;                  //标题无法点击 default is NO;
 
 - (instancetype)initWithTitle:(NSString *)title;
 @end

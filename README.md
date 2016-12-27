@@ -1,5 +1,17 @@
 # ActionSheetLikeWeChat
 高度自定义的ActionSheet(类似微信)
+
+###效果图
+![JM_ActionSheet](https://github.com/ZJM6658/ActionSheetLikeWeChat/blob/master/showgif/ActionSheet.gif?raw=true" alt="ActionSheet.gif">)
+
+###如何使用
+1、将`JM_ActionSheet`文件夹拖入你的工程中
+
+2、
+```
+	pod 'JM_ActionSheet'
+```
+
 ###代码原理
 1、`JM_ActionSheet`继承于`UIView`，它根据`M_SheetItem`来显示每一行的样式:
 
@@ -10,8 +22,8 @@
 	@property(nonatomic, strong) NSString *title;       //标题
 	@property(nonatomic, strong) UIColor *textColor;    //字体颜色 default is blackColor;
 	@property(nonatomic, strong) UIFont *textFont;      //字号 default is 15;
-	@property(nonatomic) CGFloat height;                //行高 defaule is 44;
-	@property(nonatomic) BOOL isTitle;                  //标题无法点击 defaule is NO;
+	@property(nonatomic) CGFloat height;                //行高 default is 44;
+	@property(nonatomic) BOOL isTitle;                  //标题无法点击 default is NO;
 
 	- (instancetype)initWithTitle:(NSString *)title;
 	@end
@@ -63,7 +75,4 @@
 
 ```
 3、具体使用可下载Demo查看。
-###效果图:
-
-![JM_ActionSheet](https://github.com/ZJM6658/ActionSheetLikeWeChat/blob/master/showgif/ActionSheet.gif?raw=true" alt="ActionSheet.gif">)
 
